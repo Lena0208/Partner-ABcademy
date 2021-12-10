@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrierung</title>
+	 <link rel="stylesheet" href="src/styles.css"/>
+</head>
+<body>
+<div class="container"> 
+   <div class="row"> 
+    <div class="col-6">
+
+    <h1>
+        Registrieren Sie sich jetzt! </br>
+        Geben Sie Ihre Daten ein und klicken Sie dann auf "Senden". Ihre Registrierung wird anschließend von uns geprüft. Sobald Ihr Account aktiviert wurde, erhalten Sie eine Benachrichtigung.
+    </h1>
+</div>
+<div class ="col-6"> 
+
+    <form id="data">
+        <div class="Anrede">
+            <label for="anrede">Wählen Sie bitte Ihre Anrede aus:</label>
+<select name="anrede-dropdown" id="anrede">
+    <option value="m">Herr</option>
+  <option value="w">Frau</option>
+  <option value="d">divers</option>
+</select>
+        </div>
+    <div class="Nachname">
+        <input type="text"
+        autocomplete="off"
+        placeholder="Nachname"
+        id="Nachname"
+        >
+    </div>
+    
+    <div class="Vorname">
+        <input type="text"
+        placeholder="Vorname"
+        autocomplete="off"
+        id="Vorname">
+    </div>
+    <div class="Benutzer">
+        <input type="text"
+        placeholder="Benutzername"
+        autocomplete="off"
+        id="Benutzername">
+        </div>
+
+        <div class="E-Mail"> 
+        <input type="text" placeholder="E-Mailadresse" 
+        autocomplete="off"
+        id="Email">
+        </div>
+        <div class="Kundennummer"> 
+        <input type="text" placeholder="Alexander Bürkle Kundennumer" 
+        autocomplete="off"
+        id="Kundennummer">
+        </div>
+    </form>
+</div>
+    <button> Senden </button>
+    </div>
+</div>    
+</body>
+</html>
