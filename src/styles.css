@@ -29,6 +29,19 @@ h1 {
   font-size: 18px;
 }
 
+#anrede {
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border-color: #ea002a;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+  color: grey;
+}
+
 #Nachname {
   width: 72%;
   display: block;
