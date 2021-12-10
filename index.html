@@ -19,46 +19,22 @@
     </h1>
 </div>
 <div class ="col-6 section2"> 
-    <form id="data">
-        <div class="Anrede">
-<select name="anrede-dropdown" id="anrede">
-    <option value="m">Herr</option>
-  <option value="w">Frau</option>
-  <option value="d">Divers</option>
+    <form action="https://alexanderbuerkle--uat.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+<input type=hidden name="orgid" value="00D3N00000037db">
+<input type=hidden name="retURL" value="https://register-partner-abcademy.netlify.app/">
+<input type="hidden" name="SourceId" value=""https://register-partner-abcademy.netlify.app/>
+<select  id="anrede" name="Anrede_PA__c" title="Anrede"><option value="Herr">Herr</option>
+<option value="Frau">Frau</option>
+<option value="Divers">Divers</option>
 </select>
-        </div>
-        <input class="form-control"
-        type="text"
-        autocomplete="off"
-        placeholder="Nachname"
-        id="Nachname"
-        >
-        <input class="form-control"
-        type="text"
-        placeholder="Vorname"
-        autocomplete="off"
-        id="Vorname">
-        <input class="form-control"
-        type="text"
-        placeholder="Benutzername"
-        autocomplete="off"
-        id="Benutzername">
-
-        <input class="form-control"
-        type="text" placeholder="E-Mail Adresse" 
-        autocomplete="off"
-        id="Email">
-        
-        <input class="form-control"
-        type="text" placeholder="Alexander Bürkle Kundennr." 
-        autocomplete="off"
-        id="Kundennummer">
-        
-    </form>
-
-    <input class="btn btn-primary"
-    type="submit" value="Senden"
-    id="sendenButton">
+<input id="Nachname" maxlength="30" name="Nachname_PA__c" size="20" type="text" placeholder="Nachname" autocomplete="off"/>
+<input id="Vorname" maxlength="30" name="Vorname_PA__c" size="20" type="text" placeholder="Vorname" autocomplete="off"/>
+<input  id="Benutzername" maxlength="40" name="Benutzername__c" size="20" type="text" placeholder="Benutzername" autocomplete="off"/>
+<input  id="Email" maxlength="80" name="Email_PA__c" size="20" type="text" placeholder="E-Mail Adresse" autocomplete="off"/>
+<input  id="Kundennummer" maxlength="10" name="Kundennummer_PA__c" size="20" type="text" placeholder="Alexander Bürkle Kundennr." autocomplete="off"/>
+<input id="sendenButton" type="submit" name="submit" value="Senden">
+</form>
     </div>
     </div>
 </div>
