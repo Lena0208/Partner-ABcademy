@@ -30,26 +30,54 @@ h1 {
 }
 
 #Nachname {
-  width: 60%;
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border-color: #ea002a;
 }
 
 #Vorname {
-  width: 60%;
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border-color: #ea002a;
 }
 
 #Benutzername {
-  width: 60%;
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border-color: #ea002a;
 }
 
 #Email {
-  width: 60%;
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border-color: #ea002a;
 }
 
 #Kundennummer {
-  width: 60%;
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 10px;
+  border-color: #ea002a;
 }
 
 #sendenButton {
   background-color: #ea002a;
   border: #ea002a;
+  padding: 7px 30px;
+  margin-top: 13px;
+  border-radius: 10px;
 }
