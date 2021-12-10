@@ -93,4 +93,10 @@ h1 {
   padding: 7px 60px;
   margin-top: 50px;
   border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+
+#sendenButton:hover {
+  background-color: grey;
+  border-color: grey;
 }
