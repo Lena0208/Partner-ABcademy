@@ -27,11 +27,26 @@ h1 {
 
 .section2 {
   font-size: 18px;
-  display: table;
 }
 
-#id {
-  line-height: 1.5;
+#Nachname {
+  width: 60%;
+}
+
+#Vorname {
+  width: 60%;
+}
+
+#Benutzername {
+  width: 60%;
+}
+
+#Email {
+  width: 60%;
+}
+
+#Kundennummer {
+  width: 60%;
 }
 
 #sendenButton {
