@@ -36,11 +36,9 @@ h1 {
   display: block;
   margin: 0 auto;
   margin-top: 13px;
-  border-radius: 10px;
-  border-color: #ea002a;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 4px;
+  border-radius: 2px;
+  border-color: #c8c8c8;
+  padding: 13px 14px;
   color: grey;
 }
 
@@ -49,11 +47,9 @@ h1 {
   display: block;
   margin: 0 auto;
   margin-top: 13px;
-  border: 1px solid #ea002a;
-  border-radius: 10px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 4px;
+  border: 1px solid #c8c8c8;
+  border-radius: 2px;
+  padding: 13px 14px;
 }
 
 #Vorname {
@@ -61,23 +57,9 @@ h1 {
   display: block;
   margin: 0 auto;
   margin-top: 13px;
-  border-radius: 10px;
-  border: 1px solid #ea002a;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 4px;
-}
-
-#Benutzername {
-  width: 72%;
-  display: block;
-  margin: 0 auto;
-  margin-top: 13px;
-  border-radius: 10px;
-  border: 1px solid #ea002a;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 4px;
+  border-radius: 2px;
+  border: 1px solid #c8c8c8;
+  padding: 13px 14px;
 }
 
 #Email {
@@ -85,11 +67,9 @@ h1 {
   display: block;
   margin: 0 auto;
   margin-top: 13px;
-  border-radius: 10px;
-  border: 1px solid #ea002a;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 4px;
+  border-radius: 2px;
+  border: 1px solid #c8c8c8;
+  padding: 13px 14px;
 }
 
 #Kundennummer {
@@ -97,11 +77,9 @@ h1 {
   display: block;
   margin: 0 auto;
   margin-top: 13px;
-  border-radius: 10px;
-  border: 1px solid #ea002a;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 4px;
+  border-radius: 2px;
+  border: 1px solid #c8c8c8;
+  padding: 13px 14px;
 }
 
 #sendenButton {
@@ -109,13 +87,13 @@ h1 {
   border: #ea002a;
   padding: 7px 60px;
   margin-top: 50px;
-  border-radius: 10px;
+  border-radius: 2px;
   transition: all 200ms ease-in-out;
   color: white;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 #sendenButton:hover {
-  background-color: grey;
-  border-color: grey;
+  background-color: #c8c8c8;
+  border-color: #c8c8c8;
 }
