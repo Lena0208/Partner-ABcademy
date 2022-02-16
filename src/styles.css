@@ -88,6 +88,36 @@ h2 {
   padding: 13px 14px;
 }
 
+#Straße {
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 2px;
+  border: 1px solid #c8c8c8;
+  padding: 13px 14px;
+}
+
+#Telefon {
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 2px;
+  border: 1px solid #c8c8c8;
+  padding: 13px 14px;
+}
+
+#UmStId {
+  width: 72%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 2px;
+  border: 1px solid #c8c8c8;
+  padding: 13px 14px;
+}
+
 #sendenButton {
   background-color: #ea002a;
   border: #ea002a;
