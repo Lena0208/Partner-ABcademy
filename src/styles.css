@@ -39,6 +39,16 @@ h2 {
   font-size: 18px;
 }
 
+#Firma {
+  width: 91%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  border-radius: 2px;
+  border: 1px solid #c8c8c8;
+  padding: 13px 14px;
+}
+
 #anrede {
   width: 91%;
   display: block;
