@@ -135,6 +135,11 @@ h2 {
   text-align: left;
 }
 
+.indiMail {
+  color: #757575;
+  margin-top: 13px;
+}
+
 #sendenButton {
   background-color: #ea002a;
   border: #ea002a;
